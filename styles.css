@@ -8,7 +8,7 @@
     position: fixed;
     text-align: center;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     top: 0;
     left: 0;
     height: auto;
@@ -16,6 +16,7 @@
 
 ul {
     color: white;
+    margin-top: 30px;
 }
 
 .push {
@@ -62,6 +63,8 @@ ul {
     -webkit-column-gap: 80px;
     -moz-column-gap: 80px;
     column-gap: 80px;
+    padding-left: 12em;
+    padding-right: 12em;
 }
 
 #col2 {
@@ -71,14 +74,19 @@ ul {
     -webkit-column-gap: 80px;
     -moz-column-gap: 80px;
     column-gap: 80px;
+    padding-left: 12em;
+    padding-right: 12em;
 }
 
 p {
     margin-top: 0em;
+    padding-left: 12em;
+    padding-right: 12em;
 }
 
 h4 {
     margin-bottom: 0em;
+    padding-left: 12em;
 }
 
 .technical p {
@@ -89,6 +97,8 @@ h4 {
 .education li {
     list-style: none;
     text-align: left;
+    color: black;
+    padding-left: 10em;
 }
 
 .daisy {
@@ -139,11 +149,7 @@ label {
 }
 
 input, textarea {
-    /* To make sure that all text fields have the same font settings
-       By default, textareas have a monospace font */
     font: 1em sans-serif;
-
-    /* To give the same size to all text field */
     width: 200px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -197,5 +203,5 @@ button {
 
 .links {
     text-decoration: none;
-    color: red;
+    color: powderblue;
 }
