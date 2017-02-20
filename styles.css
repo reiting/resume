@@ -8,7 +8,7 @@
     position: fixed;
     text-align: center;
     width: 100%;
-    padding-bottom: 25px;
+    /*padding-bottom: 25px;*/
     top: 0;
     left: 0;
     height: auto;
@@ -57,14 +57,7 @@ ul {
 }
 
 #col {
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
-    -webkit-column-gap: 80px;
-    -moz-column-gap: 80px;
-    column-gap: 80px;
-    padding-left: 12em;
-    padding-right: 12em;
+    text-align: center;
 }
 
 #col2 {
@@ -109,6 +102,26 @@ h4 {
 .rose {
     color: gray;
     margin-bottom: 0em;
+}
+
+#exp:target {
+    padding-top: 90px;
+    margin-top: -90px;
+}
+
+#me:target {
+    padding-top: 90px;
+    margin-top: -90px;
+}
+
+#skills:target {
+    padding-top: 90px;
+    margin-top: -90px;
+}
+
+#pro:target {
+    padding-top: 90px;
+    margin-top: -90px;
 }
 
 .footer {
@@ -184,9 +197,8 @@ button {
     color: #a3c5cf; 
     height: 2em;
     background-color: white;
-    
-  
 }
+
 
 ::-webkit-input-placeholder {
    font-style: italic;
